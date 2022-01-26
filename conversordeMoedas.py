@@ -1,9 +1,6 @@
 # encoding: utf-8
-# crie um algoritmo que leia um numero e mostre o seu dobro, triplo e raiz quadrada
-import math
+# Conversor de moedas
 
-numero = int(raw_input('Digite um número: '))
-dobro = numero  * 2
-triplo = numero * 3
-raizquadrada= math.sqrt(numero)
-print('O seu número é {}, seu dobro é {}, seu triplo é {} e sua raiz quadrada é {}!'.format(numero, dobro, triplo, raizquadrada))
+valor = float(raw_input('Quantos reais você tem na carteira? R$:'))
+dolar = valor * 0.18
+print('Com R${} você pode comprar US${} em 10 de janeiro de 2022'.format(valor, dolar))
